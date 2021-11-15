@@ -22,9 +22,9 @@ interface ChainInfo {
 export const CHAIN_INFO: { readonly [chainId: number]: ChainInfo } = {
   [SupportedChainId.MAINNET]: {
     name: 'ICON Mainnet',
-    node: 'https://ctz.solidwallet.io',
-    APIEndpoint: 'https://ctz.solidwallet.io/api/v3',
-    debugAPIEndpoint: 'https://ctz.solidwallet.io/api/debug/v3',
+    node: 'http://34.133.160.215:9000',
+    APIEndpoint: 'http://34.133.160.215:9000/api/v3',
+    debugAPIEndpoint: 'http://34.133.160.215:9000/api/debug/v3',
     chainId: 1,
     tracker: 'https://tracker.icon.foundation',
   },
